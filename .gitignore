@@ -1,0 +1,11 @@
+# Игнорировать виртуальные окружения
+venv/
+.idea/
+.vscode/
+__pycache__/
+/media/
+/static/
+*.sqlite3
+*.log
+*.pyc
+1

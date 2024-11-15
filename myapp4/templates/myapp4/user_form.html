@@ -1,0 +1,11 @@
+{% extends 'base.html' %}
+{% comment %} расширяем базовый шаблон на уроыне мой проект {% endcomment %}
+
+{% block content %}
+<h3>{{ message }}</h3>
+<form action="" method="post">
+    {% csrf_token %}
+    {{ form.as_div }}
+    <input type="submit" value="Отправить">
+</form>
+{% endblock %}
